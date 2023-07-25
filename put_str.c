@@ -1,8 +1,13 @@
 #include "main.h"
-
+/**
+ * put_str - prints a string
+ * @string: string location
+ * Return: r_value
+ */
 int put_str(char *string)
 {
-	int index, r_val = 0;
+	int index = 0, r_val = 0;
+
 	if (string)
 	{
 		while (string[index] != '\0')
