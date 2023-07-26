@@ -17,5 +17,7 @@ int put_str(char *string)
 			index++;
 		}
 	}
+	_putchar('\n');
+
 	return (r_val);
 }

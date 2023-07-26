@@ -7,5 +7,6 @@
 int _putchar(char z);
 int _printf(const char *format, ...);
 int put_str(char *string);
+void get_intg(int num);
 
 #endif /*MAIN_H*/
